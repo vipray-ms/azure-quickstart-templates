@@ -27,9 +27,9 @@
         "visible": true
       },
       {
-        "name": "monitorName",
+        "name": "resourceName",
         "type": "Microsoft.Common.TextBox",
-        "label": "Monitor Name",
+        "label": "Resource Name",
         "toolTip": "Specify a name for the NewRelic resource",
         "constraints": {
           "required": true,
@@ -93,7 +93,7 @@
     "steps": [],
     "outputs": {
       "resourceGroupName": "[basics('resourceGroupName')]",
-      "monitorName": "[basics('monitorName')]",
+      "resourceName": "[basics('resourceName')]",
       "location": "[location()]",
       "plan": "[basics('plan')]",
       "firstName": "[basics('firstName')]",
